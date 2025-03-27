@@ -1,11 +1,19 @@
+@media only screen and (max-width: 600px) {
+    .navbarcontainer {grid-area: 1 / span 6;}
+    .downloadbuttons {grid-area: 2 / span 6;}
+    .rotatedimagediv {grid-area: 3 / span 6;}
+    .businessgrowthdiv {grid-area: 4 / span 6;}
+    .ditiionumbers {grid-area: 5 / span 6;}
+   }
 .navbarcontainer{
     display: flex;
     margin-left: 10%;
+    margin-top: 1cm;
 }
 .loginsignupcontainer{
-    
+    margin-left: 100px;   
 
-    
+    margin-top: -0.4cm;
 }
 #signup{
     background-color: palevioletred;
@@ -61,10 +69,30 @@
     
     
 }
+#dlogo{
+    width: 40px;
+    margin-top: 0px;
+    border-radius: 2cm;
+}
+#dit{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0cm;
+    left: 6.5cm;
+}
 .downloadbuttons{
     display: flex;
-    gap: 10cm;
-    margin-top: 40px;
+    gap: 5cm;
+    margin-top: 2cm;
+    font-size: larger;
+}
+#westervelt{
+    font-size: larger;
+    font-weight: bold;
+}
+#contact{
+    color: black;
+    font-weight: bold;
 }
 .appleplaystore{
     margin-left: 13%;
@@ -99,26 +127,63 @@ h1{
     width: 100px;
     border-radius: 50%;
     border: solid 5px rgb(250, 109, 132);
+    
+}
+.uploadingspeeddiv{
+    display: flex;
+    background-color: white;
+    gap: 2cm;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 15cm;
+}
+.seventythreediv{
+    font-size: larger;
+    border: solid rgb(50, 225, 170) 5px;
+    padding: 20px;
+    border-radius: 70%;
+    font-weight: bold;
+    
+
 }
 .rogerdivision{
     display: flex;
     gap: 4cm;
     
 }
+#days{
+    font-weight: bold;
+}
+#oculus{
+    font-weight: bold;
+}
+.euros{
+    font-weight: bold;
+}
+#fast{
+    font-weight: bold;
+}
+#percent{
+    font-weight: bold;
+}
 #fatman{
-    width: 200px;
+    width: 300px;
     border-radius: 10%;
+    position: absolute;
+    top: 10cm;
 }
 .monthlysalarydiv{
     display: flex;
     gap: 4cm;
 }
 .rotatedimagediv{
-    border: solid 1px;
     rotate: -7deg;
     border-radius: 10%;
     background-color: rgb(245, 244, 244);
     padding: 20px;
+    width: 500px;
     
 }
 .profilepicdiv{
@@ -155,7 +220,7 @@ h1{
     margin-left: 2%;
 }
 .businessgrowthdiv{
-    margin-top: 100px;
+    margin-top: 10cm;
     text-align: center;
     font-size: 30px;
 }
@@ -185,6 +250,7 @@ h1{
     padding-top: 70px;
     background-color: rgb(248, 241, 232);
     border-radius: 1cm;
+    border:solid 2px #e86ebf;
 }
 .equalizericondiv{
     width: 300px;
@@ -205,28 +271,50 @@ h1{
     margin-top: 3cm;
     display: flex;
     margin-left: 5%;
+    padding-left: 5%;
     gap: 3cm;
+    font-size: larger;
+    
+}
+#fiftyk{
+    font-weight: bold;
+    font-size: 30px;
+}
+#twentyk{
+    font-weight: bold;
+    font-size: 30px;
+}
+#threehundred{
+    font-weight: bold;
+    font-size: 30px;
+}
+#tenk{
+    font-weight: bold;
+    font-size: 30px;
+}
+.lorem{
+    margin-top: 3cm;
 }
 .ditiionumbers a{
     color: #d80e0e;
 }
 h3{
-    font-size: 40px;
+    font-size: 50px;
 }
 .numbersdiv{
     display: flex;
     gap: 2cm;
 }
 #avatars{
-    width: 800px;
+    width: 900px;
 }
 .watchvideocontainer{
     position: absolute;
     background-color: white;
-    top: 51cm;
-    left: 23cm;
+    top: 58cm;
+    left: 27cm;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
 }
 .watchdiv{
     display: flex;
@@ -245,8 +333,9 @@ h3{
     background-color: white;
     text-align: center;
     padding: 10px;
-    top: 59cm;
-    left: 19cm;
+    top: 66cm;
+    left: 23.5cm;
+    border-radius: 10px;
     
 }
 .anchordiv button{
@@ -265,6 +354,9 @@ h4{
 }
 #smartphone{
     width: 50px;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 2cm;
 }
 #angelpic{
     width: 100px;
@@ -278,6 +370,16 @@ h4{
     display: flex;
     background-color: rgb(1, 1, 43);
     color: white;
+    gap: 5cm;
+    padding-left: 5cm;
+}
+.copyrightdiv{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-left: 5cm;
+    gap: 15cm;
 }
 .socialmediadiv{
     display: flex;
@@ -286,7 +388,8 @@ h4{
     background-color: blanchedalmond;
     gap: 2cm;
     padding: 100px;
-    font-size: large;
+    font-size: 20px;
+    line-height: 1cm;
 }
 .accountdiv{
     display: flex;
@@ -307,11 +410,13 @@ h4{
     background-color: white;
     rotate: 3deg;
     padding: 20px;
+    border-radius: 1cm;
 }
 .timdaviddiv{
     background-color: white;
     padding: 20px;
     rotate: 3deg;
+    border-radius: 30px;
 }
 .jorinacontainer{
     display: flex;
@@ -323,7 +428,19 @@ h4{
 }
 .clientscontainer{
     display: flex;
-    gap: 2cm;
+    gap: 1cm;
+    margin-left: 5%;
+    font-size:25px;
+    
+}
+.clientone{
+    border: solid violet 2px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.clienttwo{
+    border-radius: 20px;
+    padding: 50px;
 }
 #one{
   width: 100px;
@@ -336,8 +453,118 @@ h4{
 }
 h5{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+
 }
 .imgstarcont{
     display: flex;
+    gap: 5cm;
+}
+.animediv{
+    display:flex;
+    margin-top: 50px;
+    gap: 5cm;
+}
+.userdownloadsdiv{
+    font-size: 30px;
+    margin-top: 10%;
+
+}
+.conditionsdiv{
+    display: flex;
+    gap: 2cm;
+
+}
+#linefoot{
+   height: 0.5cm; 
+   margin-top: 0cm;
+}
+#product{
+    color: #f00a0a;
+}
+#easyintfc{
+ background-color: rgb(233, 161, 185);
+ padding: 10px;
+ border-radius: 2cm;
+}
+#chain{
+    background-color: rgb(229, 245, 245);
+ padding: 10px;
+ border-radius: 2cm;
+}
+#leaf{
+    background-color: rgb(229, 245, 245);
+    padding: 10px;
+    border-radius: 2cm;
+}
+#delivered{
+    font-size: larger;
+    font-weight: bolder;
+}
+#transfers{
+    font-size: larger;
+    font-weight: bolder;
+}
+#support{
+    font-size: larger;
+    font-weight: bolder;
+}
+#mobileapp{
+    font-size: larger;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#knowmore{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 1.5cm;
+    border-radius: 0.5cm;
+}
+#seti{
+    font-size: larger;
+    font-weight: bolder;
+}
+#greater{
+    background-color: azure;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#user{
+    background-color: azure;
+    padding: 10px;
+    border-radius: 5px; 
+}
+#facefrown{
+    background-color: azure;
+    padding: 10px;
+    border-radius: 5px; 
+}
+#arrow{
+    background-color: azure;
+    padding: 10px;
+    border-radius: 5px; 
+}
+#log{
+    background-color: white;
+    border-radius: 15px;
+}
+#sign{
+    background-color: pink;
+    border-radius: 15px;
+    border: none;
+}
+#starone{
+    margin-left: 40px;
+}
+#star{
+    margin-left: 40px;
+}
+#edwin{
+    border: solid palevioletred 2px;
+    padding: 10px;
+    border-radius: 2cm;
+    
 }
