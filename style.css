@@ -1,0 +1,343 @@
+.navbarcontainer{
+    display: flex;
+    margin-left: 10%;
+}
+.loginsignupcontainer{
+    
+
+    
+}
+#signup{
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: larger;
+    
+
+}
+#login{
+    background-color: white;
+    border: none;
+    font-size: larger;
+    
+   
+    
+}
+.navigationbar a{
+    
+    margin-left: 3cm;
+    font-size: larger;
+}
+#feature{
+    text-decoration: none;
+    color: black;
+    
+}
+#aboutus{
+    text-decoration: none;
+    color: black;
+    opacity: 80%;
+    
+}
+#products{
+    text-decoration: none;
+    color: black;
+    opacity: 80%;
+    
+}
+#pricing{
+    text-decoration: none;
+    color: black;
+    opacity: 80%;
+    
+}
+#feedback{
+    text-decoration: none;
+    color: black;
+    opacity: 80%;
+    
+    
+}
+.downloadbuttons{
+    display: flex;
+    gap: 10cm;
+    margin-top: 40px;
+}
+.appleplaystore{
+    margin-left: 13%;
+}
+h1{
+    font-size: 60px;
+}
+.appleplaystore a{
+    color: #d80e0e;
+}
+.appleplaystore button{
+    width: 100px;
+    height: 1cm;
+}
+#applebutton {
+  background-color: black;
+  color: white;
+  width: 150px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 1.5cm;
+}
+#googleplay{
+    width: 150px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 1.5cm;
+}
+#profilepic{
+    width: 100px;
+    border-radius: 50%;
+    border: solid 5px rgb(250, 109, 132);
+}
+.rogerdivision{
+    display: flex;
+    gap: 4cm;
+    
+}
+#fatman{
+    width: 200px;
+    border-radius: 10%;
+}
+.monthlysalarydiv{
+    display: flex;
+    gap: 4cm;
+}
+.rotatedimagediv{
+    border: solid 1px;
+    rotate: -7deg;
+    border-radius: 10%;
+    background-color: rgb(245, 244, 244);
+    padding: 20px;
+    
+}
+.profilepicdiv{
+    display: flex;
+    gap: 2cm;
+}
+.logodiv{
+    margin-left: 13%;
+    gap: 2cm;
+}
+#finrtopay{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 0.5cm;
+}
+#microsoft{
+    width: 200px;
+}
+#trello{
+    width: 200px;
+    margin-left: 2%;
+
+}
+#google{
+    width: 200px;
+    margin-left: 2%;
+}
+#dropbox{
+    width: 200px;
+    margin-left: 2%;
+}
+#slack{
+    width: 200px;
+    margin-left: 2%;
+}
+.businessgrowthdiv{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.theproductcontainer{
+    display: flex;
+    margin-left: 13%;
+    gap: 1cm;
+    font-size: 20px;
+    
+    
+    
+}
+.Interfacediv{
+    margin-top: 5cm;
+    text-align: center;
+    gap: 2cm;
+    font-size: 30px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    background-color: rgb(196, 241, 241);
+    padding: 40px;
+    border-radius: 1cm;
+}
+.staricondiv{
+    width: 300px;
+    padding: 30px;
+    padding-top: 70px;
+    background-color: rgb(248, 241, 232);
+    border-radius: 1cm;
+}
+.equalizericondiv{
+    width: 300px;
+    padding: 30px;
+    padding-top: 70px;
+    background-color: rgb(248, 241, 232);
+    border-radius: 1cm;
+}
+.leaficondiv{
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    padding-top: 70px;
+    background-color: rgb(248, 241, 232);
+    border-radius: 1cm;
+}
+.ditiionumbers{
+    margin-top: 3cm;
+    display: flex;
+    margin-left: 5%;
+    gap: 3cm;
+}
+.ditiionumbers a{
+    color: #d80e0e;
+}
+h3{
+    font-size: 40px;
+}
+.numbersdiv{
+    display: flex;
+    gap: 2cm;
+}
+#avatars{
+    width: 800px;
+}
+.watchvideocontainer{
+    position: absolute;
+    background-color: white;
+    top: 51cm;
+    left: 23cm;
+    border-radius: 5px;
+    padding: 10px;
+}
+.watchdiv{
+    display: flex;
+   
+}
+.watchdiv button{
+    background-color: rgb(43, 127, 224);
+    width: 100px;
+    height: 1cm;
+    border-radius: 2cm;
+    border: none;
+    margin-top: 20px;
+}
+.anchordiv{
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    top: 59cm;
+    left: 19cm;
+    
+}
+.anchordiv button{
+    background-color: purple;
+    color: white;
+    border-radius: 1cm;
+    width: 3cm;
+    height: 1cm;
+}
+h4{
+    text-align: center;
+    font-size: 50px;
+}
+.globalhelpdiv a{
+    color: red;
+}
+#smartphone{
+    width: 50px;
+}
+#angelpic{
+    width: 100px;
+    height: 2.5cm;
+    border-radius: 60%;
+    border: dotted 2px;
+    padding: 5px;
+}
+
+.footercontainer{
+    display: flex;
+    background-color: rgb(1, 1, 43);
+    color: white;
+}
+.socialmediadiv{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: blanchedalmond;
+    gap: 2cm;
+    padding: 100px;
+    font-size: large;
+}
+.accountdiv{
+    display: flex;
+    gap: 2cm;
+}
+.settingsdiv{
+    display: flex;
+    gap: 2cm;
+
+}
+.angelcontainer button{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+.angelcontainer{
+    background-color: white;
+    rotate: 3deg;
+    padding: 20px;
+}
+.timdaviddiv{
+    background-color: white;
+    padding: 20px;
+    rotate: 3deg;
+}
+.jorinacontainer{
+    display: flex;
+    gap: 2cm;
+    margin-top: 50px;
+}
+#angeljorina{
+    text-align: center;
+}
+.clientscontainer{
+    display: flex;
+    gap: 2cm;
+}
+#one{
+  width: 100px;
+  border-radius: 100%;
+}
+#two{
+  width: 100px;
+  border-radius: 100%;
+
+}
+h5{
+    text-align: center;
+    font-size: 40px;
+}
+.imgstarcont{
+    display: flex;
+}
